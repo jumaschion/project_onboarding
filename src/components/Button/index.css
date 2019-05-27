@@ -1,0 +1,12 @@
+.btn__primary {
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    background: #333233;
+    background-image: linear-gradient(to right, #b80d40, #333233);
+    cursor: pointer;
+    padding: 8px 18px;
+    margin-top: 15px;
+}
