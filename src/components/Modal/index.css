@@ -1,0 +1,48 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.btn__close {
+  color: #ffffff;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  background: #333233;
+  background-image: linear-gradient(to left, #d68707, #333233);
+  cursor: pointer;
+  margin: 15px auto;
+  padding: 15px 18px;
+}
+
+.input__modal {
+  width: 25%;
+  margin: 5px auto;
+  padding: 10px;
+}

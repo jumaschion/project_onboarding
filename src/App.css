@@ -8,16 +8,5 @@ body {
   background-size: cover;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgb(174, 93, 93);
-  margin: 90px auto;
-  width: 30%;
-  height: 325px;
-  border: 1px solid transparent;
-  border-radius: 35px;
-}
+
 

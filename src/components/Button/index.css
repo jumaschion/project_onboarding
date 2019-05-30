@@ -1,12 +1,27 @@
 .btn__primary {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
     background: #333233;
     background-image: linear-gradient(to right, #b80d40, #333233);
     cursor: pointer;
-    padding: 8px 18px;
-    margin-top: 15px;
+    margin: 3px auto;
+    padding: 15px 18px;
+    max-width: 190px;
+}
+
+.btn__changeImprovements {
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    background: #333233;
+    background-image: linear-gradient(to left, #43b80d, #333233);
+    cursor: pointer;
+    margin: 15px auto;
+    padding: 15px 18px;
+    max-width: 190px;
 }
